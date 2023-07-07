@@ -1,4 +1,10 @@
-
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
 .calculator-container {
   max-width: 400px;
@@ -15,7 +21,7 @@
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #b2b8b2;
+  background-color: #c4cac4;
   border-radius: 8px;
   text-align: center;
 }
@@ -34,12 +40,5 @@
 .calculator-special-button:hover {
   background-color: #f0f0f0;
 }
-.calculator-equal-button {
-  background-color: #ff8f00;
-  color: #ffffff; 
-}
 
-.calculator-equal-button:hover {
-  background-color: #ffab40;
-}
 

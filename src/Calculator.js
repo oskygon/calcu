@@ -90,7 +90,8 @@ const Calculator = () => {
       <Button
         variant="contained"
         onClick={handleCalculate}
-        className="calculator-special-button calculator-equal-button"
+        className="calculator-special-button"
+        sx={{ backgroundColor: '#ff0000', color: '#ffffff' }}
       >
         =
       </Button>
@@ -193,7 +194,7 @@ const Calculator = () => {
         <Button
           variant="contained"
           onClick={handleClick}
-          value="pi"
+          value="3.141592"
           className="calculator-special-button"
         >
           π
@@ -203,7 +204,7 @@ const Calculator = () => {
         <Button
           variant="contained"
           onClick={handleClick}
-          value="e"
+          value="2,7182818284"
           className="calculator-special-button"
         >
           e
